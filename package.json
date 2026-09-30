@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-nicoly",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio pessoal de Nicoly Guedes de Abreu",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{html,css,js,json}\" \"*.js\""
+  },
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.11",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.21",
+    "vite-plugin-handlebars": "^2.0.3"
+  }
+}

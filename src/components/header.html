@@ -1,0 +1,85 @@
+<header
+  class="fixed top-0 left-0 right-0 z-50 bg-[#0e0e10]/85 backdrop-blur-2xl border-b border-outline-variant/30"
+>
+  <div class="w-full max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+    <div class="flex items-center gap-6">
+      <a class="group flex items-center gap-2" href="#hero">
+        <span
+          class="w-2.5 h-2.5 rounded-full bg-primary shadow-[0_0_10px_#ddb7ff] group-hover:scale-125 transition-transform"
+        ></span>
+        <span class="font-headline text-2xl font-bold tracking-tight text-on-surface"
+          >nicoly<span class="text-primary font-mono text-xl">.dev</span></span
+        >
+      </a>
+      <div
+        class="hidden md:flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container border border-outline-variant/40 shadow-inner"
+      >
+        <span class="relative flex h-2 w-2">
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"
+          ></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
+        </span>
+        <span
+          class="font-label text-xs uppercase tracking-wider text-on-surface-variant font-medium"
+          >Disponível para estágio</span
+        >
+      </div>
+    </div>
+    <nav class="hidden lg:flex items-center gap-8">
+      <a class="nav-link" href="#hero">Início</a>
+      <a class="nav-link" href="#sobre">Sobre</a>
+      <a class="nav-link" href="#projetos">Projetos</a>
+      <a class="nav-link" href="#habilidades">Habilidades</a>
+      <a class="nav-link" href="#experiencia">Trajetória</a>
+      <a class="nav-link" href="#contato">Contato</a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <a
+        class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary font-label text-xs uppercase tracking-wider font-semibold hover:shadow-[0_0_24px_rgba(183,109,255,0.5)] hover:scale-[1.02] transition-all"
+        href="mailto:{{site.email}}"
+      >
+        <span class="material-symbols-outlined text-base">send</span>
+        <span class="">Falar comigo</span>
+      </a>
+      <div
+        class="hidden sm:block p-0.5 rounded-full bg-gradient-to-tr from-primary to-secondary-container shadow-[0_0_12px_rgba(183,109,255,0.3)]"
+      >
+        <img
+          alt="Nicoly Guedes"
+          class="w-9 h-9 rounded-full object-cover"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAK0r2EeL0JbprMqocOQLHdWeLcVOkpiPbUqWfvfCm8_NCCOlnf37mJleRMnMo6I2Yq3ZuyGuC58dtLCnbDRK4Hh7NgSeXYJ-79_9_QZkUHYN1C7dtmddiauNASvVB1lccZNCM_4tyf6MDvo-GqTn-X1xeW_hXWHuctqhUXTMa7UaskvPULbcDyBa1II_SNlrVw-Hs1SIinnweMnARK_SH9vxufMGWRrfcyUtT4_uzySytJ_6eHOLX2Pc8g0PftsdKHg"
+        />
+      </div>
+      <button
+        aria-label="Abrir menu"
+        class="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg bg-surface-container text-on-surface hover:text-primary border border-outline-variant/40"
+        id="mobile-nav-toggle"
+      >
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+  <div
+    class="hidden lg:hidden bg-surface-container-lowest/95 backdrop-blur-2xl border-b border-outline-variant/40 px-6 py-5 flex flex-col gap-4"
+    id="mobile-menu"
+  >
+    <div class="flex items-center gap-2 pb-2 border-b border-outline-variant/20">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span class="font-label text-xs uppercase tracking-wider text-on-surface-variant"
+        >Disponível para estágio em TI</span
+      >
+    </div>
+    <a class="mobile-link" href="#hero">Início</a>
+    <a class="mobile-link" href="#sobre">Sobre</a>
+    <a class="mobile-link" href="#projetos">Projetos</a>
+    <a class="mobile-link" href="#habilidades">Habilidades</a>
+    <a class="mobile-link" href="#experiencia">Trajetória</a>
+    <a class="mobile-link" href="#contato">Contato</a>
+    <a
+      class="mt-2 text-center py-2.5 rounded-lg bg-primary text-on-primary font-label text-xs uppercase tracking-wider font-semibold"
+      href="#contato"
+      >Falar Comigo</a
+    >
+  </div>
+</header>

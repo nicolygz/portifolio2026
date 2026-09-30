@@ -1,0 +1,71 @@
+@layer components {
+  .nav-link {
+    @apply font-label text-sm uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors relative py-1 hover:drop-shadow-[0_0_8px_rgba(221,183,255,0.4)];
+  }
+
+  .mobile-link {
+    @apply font-label text-sm uppercase tracking-wider text-on-surface-variant hover:text-primary py-1;
+  }
+
+  .section {
+    @apply w-full py-24 scroll-mt-20 border-t border-outline-variant/20;
+  }
+
+  .container-page {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+
+  .section-label {
+    @apply font-label text-sm text-primary tracking-widest uppercase font-semibold;
+  }
+
+  .section-rule {
+    @apply h-[1px] flex-1 bg-gradient-to-r from-outline-variant/60 to-transparent;
+  }
+
+  .section-title {
+    @apply font-headline text-3xl sm:text-4xl lg:text-5xl font-bold text-on-surface;
+  }
+
+  .section-subtitle {
+    @apply font-body text-base text-on-surface-variant max-w-2xl mt-2;
+  }
+
+  .project-card {
+    @apply bg-surface-container-low border border-outline-variant/30 hover:border-primary/50 rounded-2xl p-8 shadow-xl hover:shadow-[0_20px_45px_rgba(183,109,255,0.18)] transition-all duration-300 flex flex-col justify-between;
+  }
+
+  .project-title {
+    @apply font-headline text-2xl font-bold text-on-surface group-hover:text-primary transition-colors;
+  }
+
+  .project-desc {
+    @apply font-body text-sm sm:text-base text-on-surface-variant leading-relaxed;
+  }
+
+  .project-actions {
+    @apply flex items-center gap-4 pt-6 border-t border-outline-variant/20 mt-6;
+  }
+
+  .btn-primary-sm {
+    @apply inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary font-label text-xs uppercase tracking-wider font-semibold hover:shadow-[0_0_20px_rgba(183,109,255,0.4)] transition-all;
+  }
+
+  .btn-text {
+    @apply inline-flex items-center gap-1.5 font-label text-xs uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors;
+  }
+
+  .project-card--featured {
+    @apply bg-surface-container-low border border-primary/40 hover:border-primary rounded-2xl p-8 shadow-xl hover:shadow-[0_20px_50px_rgba(183,109,255,0.25)] transition-all duration-300 flex flex-col justify-between;
+  }
+
+  .skill-card {
+    @apply bg-surface-container-low border border-outline-variant/30 hover:border-primary/40 rounded-2xl p-8 shadow-xl flex flex-col justify-between transition-all;
+  }
+  .tag {
+    @apply px-3 py-1 rounded-lg bg-surface-container font-label text-xs font-semibold border border-outline-variant/40;
+  }
+  .chip {
+    @apply px-3 py-1.5 rounded-lg bg-surface-container border border-outline-variant/40 hover:border-primary/50 font-label text-xs uppercase tracking-wider transition-colors cursor-default;
+  }
+}
